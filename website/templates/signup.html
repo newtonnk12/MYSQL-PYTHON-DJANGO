@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>SihnInForm</title>
+
+</head>
+<body bgcolor="lightgreen">
+<center><h1>User Login Form</h1></center><hr/>
+<from action="#" method="post">
+{ % csrf_token % }
+<center>
+Email ID : <input type=email placeholder="sk@gmail.com" name=email><br/>
+password : <inpue type=password name=password><br/>
+		      <input type=submit value="Login"><br/>
+</center>
+</body>
+</html>
